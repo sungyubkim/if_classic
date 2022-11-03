@@ -1,2 +1,11 @@
-# if_classic
-Brief notebooks on Influence Function (IF) estimation for classical generative models
+# Influence Function (IF) for classical generative models
+
+A brief notebook on Influence Function (IF) for classical generative models (e.g., $k$-NN, KDE, GMM)
+
+# Results
+
+| metric | $10$-NN | KDE | GMM |
+|:---:|:---:|:---:|:---:|
+| LL | ![Alt text](./figs/ll/kNN_10.png) | ![Alt text](./figs/ll/KDE.png) | ![Alt text](./figs/ll/GMM.png) | 
+| Self-IF | ![Alt text](./figs/self_if/kNN_10.png) | ![Alt text](./figs/self_if/KDE.png) | ![Alt text](./figs/self_if/GMM.png) | 
+| IF over (5,8) | ![Alt text](./figs/if/kNN_10.png) | ![Alt text](./figs/if/KDE.png) | ![Alt text](./figs/if/GMM.png) | 
