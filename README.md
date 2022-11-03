@@ -2,6 +2,11 @@
 
 A brief notebook on Influence Function (IF) for classical generative models (e.g., $k$-NN, KDE, GMM)
 
+# Training data
+
+![Alt text](./figs/train.png)
+
+
 # Results
 
 | metric | $10$-NN | KDE | GMM |
